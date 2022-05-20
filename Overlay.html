@@ -1,0 +1,40 @@
+<style>
+  #overlay {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 16%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #202020;
+  }
+
+  #logo {
+    color: #FF2400;
+    background-color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 137%
+  }
+
+  .row {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #xout {
+    background: none;
+    background-color: black;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 95%;
+  }
+
+</style>
+<div id="overlay">
+  <b id="logo" class="row">Gimclient</b>
+  <input id="xout" type="button" value="❌" onclick="off()" />
+</div>
