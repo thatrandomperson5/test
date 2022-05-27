@@ -13,8 +13,8 @@
           mjs.textcontent = js;
           output.head.appendChild(mjs);
           
-          output = document.getElementById("output").contentWindow.document.title;
-          document.getElementById("minititle").textContent = output;
+          var titles = output.title;
+          document.getElementById("minititle").textContent = titles;
                                   
           document.cookie = "html=" + html.value;
           document.cookie = "javascript=" + js.value;
