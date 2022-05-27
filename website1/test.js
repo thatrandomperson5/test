@@ -1,3 +1,4 @@
 function save() {
-   console.log(0)
+   const s = document.getElementByName('s')
+   s.textContent = "hi"
 }
