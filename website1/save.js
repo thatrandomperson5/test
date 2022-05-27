@@ -7,4 +7,6 @@
           document.cookie = "html=" + html.value;
           document.cookie = "javascript=" + js.value;
           document.cookie = "css=" + css.value;
+          output = document.getElementById("output").contentWindow.document.title
+          document.getElementById("minititle).textContent = output
         }
