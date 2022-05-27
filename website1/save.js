@@ -6,8 +6,7 @@
           document.cookie = "javascript=" + js.value;
           document.cookie = "css=" + css.value;
           console.log("html=" + html.value)
-          var neww = document.createElement("script")
+          var neww = document.createElement("iframe")
           neww.id = "output"
           document.getElementById("output") = neww
-          document.getElementById("output").appendChild(html)
         }
