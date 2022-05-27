@@ -8,6 +8,6 @@
           console.log("html=" + html.value)
           var neww = document.createElement("iframe")
           neww.id = "output"
+          neww.contentWindow.document.body.innerHTML = html
           document.getElementById("output") = neww
-          document.getElementById("output").contentWindow.document.appendChild(html)
         }
