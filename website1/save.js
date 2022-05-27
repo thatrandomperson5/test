@@ -6,8 +6,6 @@
           document.cookie = "javascript=" + js.value;
           document.cookie = "css=" + css.value;
           console.log("html=" + html.value)
-          var neww = document.createElement("iframe")
-          neww.id = "output"
-          neww.contentWindow.document.body.innerHTML = html
-          document.getElementById("output") = neww
+          .contentWindow.document.body.innerHTML = html
+          document.getElementById("output").contentWindow.document.body.innerHTML = html
         }
