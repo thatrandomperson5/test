@@ -4,7 +4,11 @@
           const css = document.getElementById("css");
           console.log("html=" + html.value);
           const output = document.getElementById("output").contentWindow.document
-          output.innerHTML = html.value;
+          output.innerHTML = `
+          <head></head>
+          <body></body>
+          `
+          output.body.innerHTML = html.value;
           var mcss = document.createElement('style');
           mcss.textContent = css.value;
           output.head.appendChild(mcss);
