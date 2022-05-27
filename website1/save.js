@@ -5,8 +5,8 @@
           const css = document.getElementById("css");
           console.log("html=" + html.value);
           const output = document.getElementById("output").contentWindow.document
-          output.location.reload("true")
- 
+          output.location.reload()
+          console.log("saved")
           output.body.innerHTML = html.value;
           var mcss = document.createElement('style');
           mcss.textContent = css.value;
