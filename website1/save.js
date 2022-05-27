@@ -9,4 +9,5 @@
           var neww = document.createElement("script")
           neww.id = "output"
           document.getElementById("output") = neww
+          document.getElementById("output").appendChild(html)
         }
