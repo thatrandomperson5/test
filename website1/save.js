@@ -9,4 +9,5 @@
           var neww = document.createElement("iframe")
           neww.id = "output"
           document.getElementById("output") = neww
+          document.getElementById("output").contentWindow.document.appendChild(html)
         }
