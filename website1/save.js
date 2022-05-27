@@ -5,7 +5,7 @@
           const css = document.getElementById("css");
           console.log("html=" + html.value);
           const output = document.getElementById("output").contentWindow.document
-          ountput.location.reload("true")
+          output.location.reload("true")
  
           output.body.innerHTML = html.value;
           var mcss = document.createElement('style');
