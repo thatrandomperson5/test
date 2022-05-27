@@ -1,11 +1,11 @@
         function save() {
+          
           const html = document.getElementById("html");
           const js = document.getElementById("javascript");
           const css = document.getElementById("css");
           console.log("html=" + html.value);
           const output = document.getElementById("output").contentWindow.document
-          output.innerHTML = ''
-          
+          ountput.location.reload("true")
  
           output.body.innerHTML = html.value;
           var mcss = document.createElement('style');
