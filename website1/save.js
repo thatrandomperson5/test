@@ -13,7 +13,7 @@
           output.head.appendChild(mcss);
           var mjs = document.createElement('script');
           mjs.type = 'text/javascript';
-          mjs.textcontent = js.value;
+          mjs.textContent = js.value;
           output.head.appendChild(mjs);
           
           document.cookie = "html=" + html.value;
