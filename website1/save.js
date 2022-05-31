@@ -1,8 +1,8 @@
         function save() {
           
-          const html = document.getElementById("html");
-          const js = document.getElementById("javascript");
-          const css = document.getElementById("css");
+          var html = document.getElementById("html");
+          var js = document.getElementById("javascript");
+          var css = document.getElementById("css");
           console.log("html=" + html.value);
           const output = document.getElementById("output").contentWindow.document
           
