@@ -21,7 +21,7 @@
           document.cookie = "css=" + css.value;
           
           var titles = output.title;
-          document.getElementById("minititle").textContent = titles;
+          document.getElementById("mintitle").textContent = titles;
                                   
 
         }
